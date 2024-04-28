@@ -1,0 +1,16 @@
+Description: 'pytz' module is not in Debian
+Author: Josenilson Ferreira da silva <nilsonfsilva@hotmail.com>
+Forwarded: not-needed
+Last-Update: 2022-12-31
+Index: domdf-python-tools/tests/test_dates.py
+===================================================================
+--- domdf-python-tools.orig/tests/test_dates.py
++++ domdf-python-tools/tests/test_dates.py
+@@ -27,6 +27,7 @@ try:
+ 	test_date = datetime(1996, 10, 13, 2, 20).replace(tzinfo=pytz.utc)
+ 	today = datetime.now(pytz.utc)  # make sure UTC
+ 
++	@pytest.mark.skip(reason="'pytz' module is not in Debian")
+ 	def test_utc_offset():
+ 		# Check that the correct UTC offsets are given for common timezones
+ 		assert dates.get_utc_offset("US/Pacific", test_date) == timedelta(-1, 61200)

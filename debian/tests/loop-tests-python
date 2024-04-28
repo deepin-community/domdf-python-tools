@@ -1,0 +1,12 @@
+ #!/bin/sh
+
+py_version="$(py3versions -s 2> /dev/null)"
+
+cp -a tests "$AUTOPKGTEST_TMP"
+
+cd "$AUTOPKGTEST_TMP"
+
+for v in $py_version; do
+	echo "=== $v ==="
+	$v -m pytest -v  tests/test_secrets.py tests/test_pagesizes/test_units.py 
+done
