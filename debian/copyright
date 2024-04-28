@@ -1,22 +1,379 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Source: https://github.com/domdfcoding/domdf_python_tools
+Upstream-Name: domdf-python-tools
+Upstream-Contact: Dominic Davis-Foster <dominic@davis-foster.co.uk>
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright: 2007-2021 by the Sphinx team
+           2019-2022 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+           2020      Derrick Gilland <dgilliand@nixlaw.com>
+License: Expat
+
+Files: domdf_python_tools/compat/__init__.py
+       domdf_python_tools/bases.py
+       domdf_python_tools/dates.py
+       domdf_python_tools/getters.py
+       domdf_python_tools/paths.py
+       domdf_python_tools/pretty_print.py
+       domdf_python_tools/terminal.py
+       domdf_python_tools/typing.py
+       domdf_python_tools/utils.py
+       tests/list_tests.py
+       tests/test_dir_comparator.py
+       tests/test_iterative.py
+       tests/test_getters.py
+       tests/test_namedlist.py
+       tests/test_paths_stdlib.py
+       tests/test_pretty_print.py
+       tests/test_userlist.py
+       tests/seq_tests.py
+Copyright: 1991-1995 Stichting Mathematisch Centrum.
+           1995-2000 Corporation for National Research Initiatives
+           2000      BeOpen.com
+           2001-2020 Python Software Foundation
+License: PSF-2.0
+
+Files: domdf_python_tools/delegators.py
+Copyright: 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+           2020 Jeremy Howard <infos@fast.ai>
+           2020 Sylvain Gugger <sgugger@huggingface.co>
+License: Expat and Apache-2.0
+
+Files: domdf_python_tools/compat/importlib_metadata.pyi 
+       domdf_python_tools/compat/importlib_resources.pyi
+Copyright: 2008 Jukka Lehtosalo <jukka.lehtosalo@iki.fi>
+License: Apache-2.0
+
+Files:  domdf_python_tools/iterative.py
+Copyright: 2008 Ned Batchelder <nedbat@gmail.com>
+           2018-2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
+License: Expat and CC-BY-SA
+
+Files: doc-source/latex_unicode.py
+Copyright: 2007-2021 the Sphinx team
+License: BSD-2-clause
+
+Files: debian/*
+Copyright: 2022-2023 Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>
+License: Expat
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
  .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: PSF-2.0
+ PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+ --------------------------------------------
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ 1. This LICENSE AGREEMENT is between the Python Software Foundation
+ ("PSF"), and the Individual or Organization ("Licensee") accessing and
+ otherwise using this software ("Python") in source or binary form and
+ its associated documentation.
+ .
+ 2. Subject to the terms and conditions of this License Agreement, PSF
+ hereby grants Licensee a nonexclusive, royalty-free, world-wide
+ license to reproduce, analyze, test, perform and/or display publicly,
+ prepare derivative works, distribute, and otherwise use Python
+ alone or in any derivative version, provided, however, that PSF's
+ License Agreement and PSF's notice of copyright, i.e., "Copyright (c)
+ 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights
+ Reserved" are retained in Python alone or in any derivative version
+ prepared by Licensee.
+ .
+ 3. In the event Licensee prepares a derivative work that is based on
+ or incorporates Python or any part thereof, and wants to make
+ the derivative work available to others as provided herein, then
+ Licensee hereby agrees to include in any such work a brief summary of
+ the changes made to Python.
+ .
+ 4. PSF is making Python available to Licensee on an "AS IS"
+ basis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+ IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND
+ DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS
+ FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT
+ INFRINGE ANY THIRD PARTY RIGHTS.
+ .
+ 5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+ FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS
+ A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,
+ OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+ .
+ 6. This License Agreement will automatically terminate upon a material
+ breach of its terms and conditions.
+ .
+ 7. Nothing in this License Agreement shall be deemed to create any
+ relationship of agency, partnership, or joint venture between PSF and
+ Licensee.  This License Agreement does not grant permission to use PSF
+ trademarks or trade name in a trademark sense to endorse or promote
+ products or services of Licensee, or any third party.
+ .
+ 8. By copying, installing or otherwise using Python, Licensee
+ agrees to be bound by the terms and conditions of this License
+ Agreement.
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC-BY-SA
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS
+ CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS
+ PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK
+ OTHER THAN AS AUTHORIZED UNDER THIS LICENSE IS PROHIBITED.
+ .
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND
+ AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. THE LICENSOR GRANTS YOU
+ THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH
+ TERMS AND CONDITIONS.
+ .
+ 1. Definitions
+  a. "Collective Work" means a work, such as a periodical issue,
+     anthology or encyclopedia, in which the Work in its entirety in
+     unmodified form, along with a number of other contributions,
+     constituting separate and independent works in themselves, are
+     assembled into a collective whole. A work that constitutes a
+     Collective Work will not be considered a Derivative Work (as
+     defined below) for the purposes of this License.
+  b. "Derivative Work" means a work based upon the Work or upon the Work
+     and other pre-existing works, such as a translation, musical
+     arrangement, dramatization, fictionalization, motion picture
+     version, sound recording, art reproduction, abridgment,
+     condensation, or any other form in which the Work may be recast,
+     transformed, or adapted, except that a work that constitutes a
+     Collective Work will not be considered a Derivative Work for the
+     purpose of this License.
+  c. "Licensor" means the individual or entity that offers the Work
+     under the terms of this License.
+  d. "Original Author" means the individual or entity who created the
+     Work.
+  e. "Work" means the copyrightable work of authorship offered under the
+     terms of this License.
+  f. "You" means an individual or entity exercising rights under this
+     License who has not previously violated the terms of this License
+     with respect to the Work, or who has received express permission
+     from the Licensor to exercise rights under this License despite a
+     previous violation.
+ .
+ 2. Fair Use Rights. Nothing in this license is intended to reduce,
+ limit, or restrict any rights arising from fair use, first sale or
+ other limitations on the exclusive rights of the copyright owner under
+ copyright law or other applicable laws.
+ .
+ 3. License Grant. Subject to the terms and conditions of this License,
+ Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+ perpetual (for the duration of the applicable copyright) license to
+ exercise the rights in the Work as stated below:
+  a. to reproduce the Work, to incorporate the Work into one or more
+     Collective Works, and to reproduce the Work as incorporated in the
+     Collective Works;
+  b. to create and reproduce Derivative Works;
+  c. to distribute copies or phonorecords of, display publicly, perform
+     publicly, and perform publicly by means of a digital audio
+     transmission the Work including as incorporated in Collective
+     Works;
+  d. to distribute copies or phonorecords of, display publicly, perform
+     publicly, and perform publicly by means of a digital audio
+     transmission Derivative Works;
+ .
+ The above rights may be exercised in all media and formats whether now
+ known or hereafter devised. The above rights include the right to make
+ such modifications as are technically necessary to exercise the rights
+ in other media and formats. All rights not expressly granted by
+ Licensor are hereby reserved.
+ .
+ 4. Restrictions. The license granted in Section 3 above is expressly
+ made subject to and limited by the following restrictions:
+  a. You may distribute, publicly display, publicly perform, or publicly
+     digitally perform the Work only under the terms of this License,
+     and You must include a copy of, or the Uniform Resource Identifier
+     for, this License with every copy or phonorecord of the Work You
+     distribute, publicly display, publicly perform, or publicly
+     digitally perform. You may not offer or impose any terms on the
+     Work that alter or restrict the terms of this License or the
+     recipients' exercise of the rights granted hereunder. You may not
+     sublicense the Work. You must keep intact all notices that refer to
+     this License and to the disclaimer of warranties. You may not
+     distribute, publicly display, publicly perform, or publicly
+     digitally perform the Work with any technological measures that
+     control access or use of the Work in a manner inconsistent with the
+     terms of this License Agreement. The above applies to the Work as
+     incorporated in a Collective Work, but this does not require the
+     Collective Work apart from the Work itself to be made subject to
+     the terms of this License. If You create a Collective Work, upon
+     notice from any Licensor You must, to the extent practicable,
+     remove from the Collective Work any reference to such Licensor or
+     the Original Author, as requested. If You create a Derivative Work,
+     upon notice from any Licensor You must, to the extent practicable,
+     remove from the Derivative Work any reference to such Licensor or
+     the Original Author, as requested.
+  b. You may distribute, publicly display, publicly perform, or publicly
+     digitally perform a Derivative Work only under the terms of this
+     License, and You must include a copy of, or the Uniform Resource
+     Identifier for, this License with every copy or phonorecord of each
+     Derivative Work You distribute, publicly display, publicly perform,
+     or publicly digitally perform. You may not offer or impose any
+     terms on the Derivative Works that alter or restrict the terms of
+     this License or the recipients' exercise of the rights granted
+     hereunder, and You must keep intact all notices that refer to this
+     License and to the disclaimer of warranties. You may not
+     distribute, publicly display, publicly perform, or publicly
+     digitally perform the Derivative Work with any technological
+     measures that control access or use of the Work in a manner
+     inconsistent with the terms of this License Agreement. The above
+     applies to the Derivative Work as incorporated in a Collective
+     Work, but this does not require the Collective Work apart from the
+     Derivative Work itself to be made subject to the terms of this
+     License.
+  c. If you distribute, publicly display, publicly perform, or publicly
+     digitally perform the Work or any Derivative Works or Collective
+     Works, You must keep intact all copyright notices for the Work and
+     give the Original Author credit reasonable to the medium or means
+     You are utilizing by conveying the name (or pseudonym if
+     applicable) of the Original Author if supplied; the title of the
+     Work if supplied; in the case of a Derivative Work, a credit
+     identifying the use of the Work in the Derivative Work (e.g.,
+     "French translation of the Work by Original Author," or "Screenplay
+     based on original Work by Original Author"). Such credit may be
+     implemented in any reasonable manner; provided, however, that in
+     the case of a Derivative Work or Collective Work, at a minimum such
+     credit will appear where any other comparable authorship credit
+     appears and in a manner at least as prominent as such other
+     comparable authorship credit.
+ .
+ 5. Representations, Warranties and Disclaimer
+  a. By offering the Work for public release under this License,
+     Licensor represents and warrants that, to the best of Licensor's
+     knowledge after reasonable inquiry:
+       i. Licensor has secured all rights in the Work necessary to grant
+          the license rights hereunder and to permit the lawful exercise
+          of the rights granted hereunder without You having any
+          obligation to pay any royalties, compulsory license fees,
+          residuals or any other payments;
+      ii. The Work does not infringe the copyright, trademark, publicity
+          rights, common law rights or any other right of any third
+          party or constitute defamation, invasion of privacy or other
+          tortious injury to any third party.
+  b. EXCEPT AS EXPRESSLY STATED IN THIS LICENSE OR OTHERWISE AGREED IN
+     WRITING OR REQUIRED BY APPLICABLE LAW, THE WORK IS LICENSED ON AN
+     "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+     IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES REGARDING THE
+     CONTENTS OR ACCURACY OF THE WORK.
+ .
+ 6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+ LAW, AND EXCEPT FOR DAMAGES ARISING FROM LIABILITY TO A THIRD PARTY
+ RESULTING FROM BREACH OF THE WARRANTIES IN SECTION 5, IN NO EVENT WILL
+ LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL,
+ INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF
+ THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ 7. Termination
+  a. This License and the rights granted hereunder will terminate
+     automatically upon any breach by You of the terms of this License.
+     Individuals or entities who have received Derivative Works or
+     Collective Works from You under this License, however, will not
+     have their licenses terminated provided such individuals or
+     entities remain in full compliance with those licenses. Sections 1,
+     2, 5, 6, 7, and 8 will survive any termination of this License.
+  b. Subject to the above terms and conditions, the license granted here
+     is perpetual (for the duration of the applicable copyright in the
+     Work). Notwithstanding the above, Licensor reserves the right to
+     release the Work under different license terms or to stop
+     distributing the Work at any time; provided, however that any such
+     election will not serve to withdraw this License (or any other
+     license that has been, or is required to be, granted under the
+     terms of this License), and this License will continue in full
+     force and effect unless terminated as stated above.
+ .
+ 8. Miscellaneous
+  a. Each time You distribute or publicly digitally perform the Work or
+     a Collective Work, the Licensor offers to the recipient a license
+     to the Work on the same terms and conditions as the license granted
+     to You under this License.
+  b. Each time You distribute or publicly digitally perform a Derivative
+     Work, Licensor offers to the recipient a license to the original
+     Work on the same terms and conditions as the license granted to You
+     under this License.
+  c. If any provision of this License is invalid or unenforceable under
+     applicable law, it shall not affect the validity or enforceability
+     of the remainder of the terms of this License, and without further
+     action by the parties to this agreement, such provision shall be
+     reformed to the minimum extent necessary to make such provision
+     valid and enforceable.
+  d. No term or provision of this License shall be deemed waived and no
+     breach consented to unless such waiver or consent shall be in
+     writing and signed by the party to be charged with such waiver or
+     consent.
+  e. This License constitutes the entire agreement between the parties
+     with respect to the Work licensed here. There are no
+     understandings, agreements or representations with respect to the
+     Work not specified here. Licensor shall not be bound by any
+     additional provisions that may appear in any communication from
+     You. This License may not be modified without the mutual written
+     agreement of the Licensor and You.
+ .
+ Creative Commons is not a party to this License, and makes no warranty
+ whatsoever in connection with the Work. Creative Commons will not be
+ liable to You or any party on any legal theory for any damages
+ whatsoever, including without limitation any general, special,
+ incidental or consequential damages arising in connection to this
+ license. Notwithstanding the foregoing two (2) sentences, if Creative
+ Commons has expressly identified itself as the Licensor hereunder, it
+ shall have all rights and obligations of Licensor.
+ .
+ Except for the limited purpose of indicating to the public that the
+ Work is licensed under the CCPL, neither party will use the trademark
+ "Creative Commons" or any related trademark or logo of Creative Commons
+ without the prior written consent of Creative Commons. Any permitted
+ use will be in compliance with Creative Commons' then-current trademark
+ usage guidelines, as may be published on its website or otherwise made
+ available upon request from time to time.
+ .
+ Creative Commons may be contacted at https://creativecommons.org/.

@@ -1,5 +1,47 @@
-template-repository (1.0-1) unstable; urgency=medium
+domdf-python-tools (3.8.0.post2-2) unstable; urgency=medium
 
-  * Initial release
+  * debian/control:
+      - Added dependency for running tests
+      - Added 'Testsuite: autopkgtest-pkg-pybuild
+      - Enabled dependencies to run tests
+      - Reformatted the code with wrap-and-sort -a
+  * debian/patches:
+      - Removed fixed patch /001.fix-error-module.patch
+      - Skipped because 'pytz' module is not in Debian
+      - Updade function obsolete
+  * debian/rules: Enabled test execution
+  * debian/tests: Modified tests
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sun, 31 Dec 2023 18:43:24 -0300
+
+domdf-python-tools (3.8.0.post2-1) unstable; urgency=medium
+
+  * New upstream version 3.8.0.post2
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 16 Dec 2023 09:48:34 -0300
+
+domdf-python-tools (3.7.0-1) unstable; urgency=medium
+
+  * New upstream version 3.7.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Fri, 27 Oct 2023 18:54:36 -0300
+
+domdf-python-tools (3.6.1-2) unstable; urgency=medium
+
+  * Source-only upload to allow testing migratiom
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 26 Jul 2023 01:00:07 -0300
+
+domdf-python-tools (3.6.1-1) unstable; urgency=medium
+
+  * New upstream version 3.6.1
+  * debian/control: Bumped Standards-Version 4.6.2
+  * debian/copyright: updated year to 2023
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Tue, 04 Jul 2023 08:12:05 -0300
+
+domdf-python-tools (3.4.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1020324)
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Tue, 21 Feb 2023 14:43:58 -0300

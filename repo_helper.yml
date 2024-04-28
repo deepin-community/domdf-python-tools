@@ -1,0 +1,83 @@
+---
+modname: domdf_python_tools
+copyright_years: "2019-2022"
+author: "Dominic Davis-Foster"
+email: "dominic@davis-foster.co.uk"
+version: "3.8.0.post2"
+username: "domdfcoding"
+license: 'MIT'
+short_desc: 'Helpful functions for Python 🐍 🛠️'
+
+python_deploy_version: 3.8
+requires_python: 3.6
+min_coverage: 95
+tox_testenv_extras: all
+pre_commit_exclude: "^domdf_python_tools/compat/importlib_resources.py$"
+docs_fail_on_warning: true
+
+conda_channels:
+ - conda-forge
+
+python_versions:
+ 3.6:
+ 3.7:
+ 3.8:
+ 3.9:
+ "3.10":
+ "3.11":
+ "3.12":
+ "3.13-dev":
+ pypy36:
+ pypy37:
+ pypy38:
+ pypy39:
+ pypy310:
+
+classifiers:
+ - 'Development Status :: 5 - Production/Stable'
+ - 'Intended Audience :: Developers'
+ - 'Topic :: Software Development :: Libraries :: Python Modules'
+
+extras_require:
+  dates:
+   - pytz>=2019.1
+  testing: []
+
+conda_extras:
+ - dates
+
+keywords:
+ - utilities
+
+manifest_additional:
+ - "include domdf_python_tools/google-10000-english-no-swears.txt"
+
+sphinx_conf_epilogue:
+ - manpages_url = "https://manpages.debian.org/{path}"
+ - toctree_plus_types.add("fixture")
+ - latex_elements["preamble"] = "\\usepackage{textgreek}\\usepackage{multicol}"
+ - needspace_amount = r"5\baselineskip"
+
+intersphinx_mapping:
+ - "'pandas': ('https://pandas.pydata.org/docs/', None)"
+ - "'consolekit': ('https://consolekit.readthedocs.io/en/latest/', None)"
+ - "'pytest': ('https://docs.pytest.org/en/stable', None)"
+ - "'pytest-regressions': ('https://pytest-regressions.readthedocs.io/en/latest/', None)"
+
+mypy_deps:
+ - pprint36
+
+extra_sphinx_extensions:
+ - sphinx_autofixture
+ - sphinx_highlights
+ - sphinx_toolbox.more_autosummary.column_widths
+ - sphinx_toolbox.latex.succinct_seealso
+ - latex_unicode
+
+tox_unmanaged:
+ - testenv
+
+additional_ignore:
+ - demo.py
+ - frozendict.py
+ - graaltest.sh
